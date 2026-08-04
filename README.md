@@ -6,9 +6,9 @@ The goal of this project is to design a low-cost digital microscope ($30-40) abl
   - Initial project structure
 
 ## Short-term Goals
-  [] Separate display & camera
-  [] End camera display with close()
-  [] Handle camera errors
+  - [] Separate display & camera
+  - [] End camera display with close()
+  - [] Handle camera errors
 
 ## Future Features
   - Live camera
