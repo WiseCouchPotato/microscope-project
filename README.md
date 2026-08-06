@@ -4,6 +4,7 @@ The goal of this project is to design a low-cost digital microscope ($30-40) abl
 ## Current Features
   - Project documentation
   - Initial project structure
+  - Initial webcam module implemented
 
 ## Short-term Goals
   - [] Separate display & camera
