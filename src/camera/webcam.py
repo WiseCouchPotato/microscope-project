@@ -16,16 +16,6 @@ class Webcam:
         if ret:
             return frame
         return None
-        #     cv.imshow("Webcam", frame)
-        #
-            # if cv.waitKey(1) & 0xFF == ord('q'):
-            #     break
-        # self._capture.release()
-        # cv.destroyAllWindows()
-
-
-    def close(self):
-        self._is_open = False
 
     def is_open(self):
         return self._is_open
