@@ -7,7 +7,7 @@ The goal of this project is to design a low-cost digital microscope ($30-40) abl
   - Initial webcam module implemented
 
 ## Short-term Goals
-  - [] Separate display & camera
+  - [x] Separate display & camera
   - [] End camera display with close()
   - [] Handle camera errors
 
