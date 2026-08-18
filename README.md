@@ -8,7 +8,7 @@ The goal of this project is to design a low-cost digital microscope ($30-40) abl
 
 ## Short-term Goals
   - [x] Separate display & camera
-  - [ ] add a requirements.txt
+  - [x] add a requirements.txt
   - [ ] End camera display with close()
   - [ ] Handle camera errors
 
@@ -23,9 +23,7 @@ The goal of this project is to design a low-cost digital microscope ($30-40) abl
 ## Installation
 
 pip install -r requirements.txt
-(file will be added)
 
 ## Run
 
 python src/main.py
-(main.py will be added)
