@@ -8,8 +8,12 @@ class Webcam:
         self._capture = None # no capture stream
 
     def open(self):
-        self._capture = cv.VideoCapture(0) # 0 stands for webcam stream
+        self._capture = cv.VideoCapture(1, cv.CAP_DSHOW) # 0 stands for webcam stream
         self._is_open = self._capture.isOpened() # boolean check if open
+
+    def close(self):
+        self._is_open = False
+        self._capture.release()
 
     def read_frame(self):
         ret, frame = self._capture.read()
