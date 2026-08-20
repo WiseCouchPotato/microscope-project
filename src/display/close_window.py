@@ -4,3 +4,4 @@ class CloseWindow():
     def close(self):
         cv.destroyAllWindows()
 
+

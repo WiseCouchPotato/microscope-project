@@ -8,6 +8,3 @@ class OpenWindow:
 
     def display_window(self, frame):
         cv.imshow("Frame", frame)
-        if (cv.waitKey(1) & 0xFF == ord('q')):
-            return True
-        return False
